@@ -1,0 +1,17 @@
+.alert {
+	background: $dark_base2;
+	border: {color: $dark_base; size: 2px; style: solid; radius: 3px};
+	font-family: $fonts;
+	font-size: 15px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.notice {
+	background: $light_base2;
+	border: {color: $light_base; size: 2px; style: solid; radius: 3px};
+	font-family: $fonts;
+	font-size: 15px;
+	padding: 10px;
+	margin: 10px;
+}

@@ -1,0 +1,47 @@
+nav {
+	height: 100px;
+	min-width: 100%;
+	background: $light_base2;
+	border-bottom: {style: solid; size: 2px; color: $light_base;}
+}
+
+.site_title {
+	display: inline-block;
+	margin-left: 10%;
+	margin-top: 10px;
+	float: left;
+	font-size: 60px;
+}
+
+.topnav {
+	margin: 0 10% 20px 0;
+	padding-top: 45px;
+	list-style: none;
+}
+
+.topnav > li {
+	float: right;
+	margin: 10px 0 10px 0;
+}
+
+.drop_down {
+	@extend %base_divstyle;
+	visibility: hidden;
+	opacity: 0;
+	float: right;
+	margin: 20px 0 20px 0;
+	list-style: none;
+}
+
+.drop_touch {
+	width: 96px;
+}
+.drop_touch:hover > .drop_down {
+	@extend %base_divstyle;
+	@extend %transition;
+	visibility: visible;
+	opacity: 1;
+	float: right;
+	margin: 20px 0 20px 0;
+	list-style: none;
+}

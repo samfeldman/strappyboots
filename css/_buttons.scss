@@ -1,0 +1,15 @@
+button, input[type="submit"] {
+	background-color: $accent;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 0;
+	border: {color: $accent_light; size: 2px; style: solid};
+	font-family: $fonts;
+	font-size: $font_base;
+}
+
+button:hover, input[type="submit"]:hover {
+	@extend %transition;
+	background-color: $accent_light;
+}

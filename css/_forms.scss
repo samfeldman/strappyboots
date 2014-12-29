@@ -1,0 +1,16 @@
+form {
+	@extend %base_divstyle;
+}
+
+input {
+	@extend %base_divstyle;
+	margin: 10px 0 0 10px;
+	border-radius: 3px;
+}
+
+input:focus {
+	@extend %transition;
+	outline: none;
+	border: {color: $accent; size: 2px; style: solid; radius: 3px};
+
+}

@@ -1,0 +1,46 @@
+$fonts: 'PT Serif', serif;
+$font_small: 10px;
+$font_base: 15px;
+$font_large: 20px;
+$font_xl: 25px;
+$font_xxl: 30px;
+$base: #D78DC8;
+$light_base: #ECBCE3;
+$light_base2: #FAE7F7;
+$dark_base: #BC61AB;
+$dark_base2: #A03D8D;
+$accent: #B8ED93;
+$accent_light: #D5F6C4;
+
+%base_divstyle {
+	background: $light_base2;
+	border: {color: $light_base; size: 2px; style: solid; radius: 10px};
+	font-family: $fonts;
+	font-size: $font_base;
+	padding: 10px;
+	margin: 10px 0;
+	outline: none;
+	display: block; 
+}
+
+%transition {
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+
+
+@import "buttons";
+
+@import "flash";
+
+@import "fonts";
+
+@import "forms";
+
+@import "headings"; 
+
+@import "div";
+
+@import "nav";
