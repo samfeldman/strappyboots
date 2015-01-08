@@ -1,12 +1,19 @@
-body, input, textarea, a {
+body, input, textarea {
   font-family: $fonts;
   font-size: $font_base;
   color: black;
   text-decoration: none;
 }
 
-a:visited {
+a {
+  font-family: $fonts;
+  font-size: $font_base;
   color: $dark_base2;
+  text-decoration: none;
+}
+
+a:visited {
+  color: $dark_base;
 }
 
 a:hover {
